@@ -1,0 +1,153 @@
+body {
+    background: #BFF1F4 !important;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+footer {
+    background: #43ACD2;
+    color: white !important;
+    text-shadow: gray;
+    font-family: 'Poppins', sans-serif;
+}
+
+#fila {
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+h1 {
+    background: #43ACD2;
+    height: 110px;
+    padding-top: 30px;
+    color: white !important;
+    text-align: center;
+    text-shadow: gray;
+    font-family: 'Lobster', cursive !important;
+}
+
+h5 {
+    font-family: 'Poppins', sans-serif !important;
+    padding-left: 10px;
+}
+
+#btn {
+    width: 200px;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 16px;
+    border: #FE9A2E 3px solid !important;
+    background-color: #FAAC58;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+#bronxBtn{
+    border: #DA3639 3px solid !important;
+    background-color: #FA5858;
+}
+#queensBtn{
+    border: #38B961 3px solid !important;
+    background-color: #72D792;
+}
+#manhattanBtn{
+    border: #9C62DF 3px solid !important;
+    background-color: #BB91EA;
+}
+#brooklynBtn{
+    border: #F79F81 3px solid !important;
+    background-color: #F5BCA9;
+}
+#statenIslandBtn{
+    border: #EAB701 3px solid !important;
+    background-color: #FDD338;
+}
+
+.botonesHome button {
+    width: 300px;
+    margin-left: 70px;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 16px;
+    border: #FE9A2E 3px solid !important;
+    transition-duration: 0.5s;
+    background-color: #FAAC58;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+.botonesTop10 {
+    margin-left: 25px;
+}
+
+    .botonesTop10 button {
+        width: 130px;
+        font-family: 'Poppins', sans-serif;
+        border-radius: 16px;
+        border: #FE9A2E 3px solid !important;
+        transition-duration: 0.5s;
+        background-color: #FAAC58;
+    }
+
+        .botonesTop10 button:hover {
+            border: #FE9A2E 2px solid !important;
+            background-color: #FFD79B;
+            transition: all 0.8s;
+        }
+
+.botonesTop3 {
+    margin-left: 25px;
+}
+
+    .botonesTop3 button {
+        width: 130px;
+        font-family: 'Poppins', sans-serif;
+        border-radius: 16px;
+        border: #FE9A2E 3px solid !important;
+        transition-duration: 0.5s;
+        background-color: #FAAC58;
+    }
+
+.nav li a {
+    background-color: #63B8C7;
+    border: #3FAFC3 0.5px solid !important;
+    font-family: 'Poppins', sans-serif;
+    transition-duration: 0.5s;
+    color: black;
+    margin: 0px;
+}
+
+    .nav li a:hover {
+        border: #04B4AE 1px solid !important;
+        background-color: #63B8C7 !important;
+        transition: all 0.8s
+        color: black;
+    }
+
+.tab-content {
+    margin-left: 20px;
+}
+
+td, th {
+    font-family: 'Poppins', sans-serif !important;
+    border-collapse: separate;
+    border: #FE9A2E 3px solid !important;
+    text-align: center !important;
+    background-color: #FFD79B;
+    width: 200px;
+}
+
+p {
+    margin-top: 20px !important;
+    text-align: justify;
+    font-family: 'Poppins', sans-serif;
+}
+
+#googleMapContainer {
+    margin-top: 30px !important;
+    margin-bottom: 20px !important;
+    margin-right: 20px !important;
+    height: 460px;
+    width: 100%;
+    border: #3FAFC3 3px solid !important;
+    border-radius: 20px;
+}

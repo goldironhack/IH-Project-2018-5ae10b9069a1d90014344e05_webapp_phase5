@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title> Find New York </title>
+    <link href="css/default.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="shortcut icon" href="https://cdn.icon-icons.com/icons2/865/PNG/512/Citycons_location_icon-icons.com_67931.png">
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container-fluid">
+
+        <div class="row">
+            <div class="col-xl-12">
+                <h1> Find New York </h1>
+            </div>
+        </div>
+
+        <div class="row justify-content-md-center">
+
+            <div class="col-5">
+
+                <ul class="nav nav-tabs">
+                    <li class="nav-item active">
+                        <a class="nav-link active" href="#home" data-toggle="tab" aria-expanded="true">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#top10" data-toggle="tab" aria-expanded="false">Top 10</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#top3" data-toggle="tab" aria-expanded="false">Top 3</a>
+                    </li>
+                    <li class="">
+                        <a class="nav-link" href="#Recommended" data-toggle="tab" aria-expanded="false">Recommended Places</a>
+                    </li>
+                </ul>
+
+                <div class="tab-content">
+                    <div class="tab-pane active show" id="home">
+                        <div class="botonesHome">
+                        	<p>
+			                    Welcome to Find New York! here you can find the best New York district to live according to your preferences.
+			                </p>
+                            <hr>
+                            <h5><b>Boroughs</b></h5>
+                            <button id="bronxBtn">Bronx</button>
+                            <button id="queensBtn">Queens</button>
+                            <button id="brooklynBtn">Brooklyn</button>
+                            <button id="manhattanBtn">Manhattan</button>
+                            <button id="statenIslandBtn">Staten Island</button>
+                            <hr>
+                            <!-- <h5><b>Parameters</b></h5>
+                            <button >Safety</button>
+                            <button >Distance</button>
+                            <button >Affordability</button>
+                            <hr> -->
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="top10">
+                        <p> Here you can find the Top 10 of neighbourhoods rank by:</p>
+                        <div class="botonesTop10">
+                            <button onclick="alert('Sorry! We are working on this.');">Safety</button>
+                            <button id="disTop10">Distance</button>
+                            <button onclick="alert('Sorry! We are working on this.');">Affordability</button>
+                        </div>
+                        <hr>
+                        <table id="tablaTop10">
+                            <thead>
+                                <tr>
+                                    <th>Rank</th>
+                                    <th>Neighbourhood</th>
+                                    <th>Borough</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <!-- <tr>
+                                    <th>1°</th>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <th>2°</th>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <th>3°</th>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <th>4°</th>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <th>5°</th>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <th>6°</th>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <th>7°</th>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <th>8°</th>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <th>9°</th>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <th>10°</th>
+                                    <td></td>
+                                    <td></td>
+                                </tr> -->
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="tab-pane fade" id="top3">
+                        <p> Here you can find the Top 3 of neighbourhoods rank by a set of these three paramaters:</p>
+                        <div class="botonesTop3">
+                            <button>Safety</button>
+                            <button>Distance</button>
+                            <button>Affordability</button>
+                        </div>
+                        <hr>
+                        <table id="tablaTop3">
+                            <thead>
+                                <tr>
+                                    <th>Rank</th>
+                                    <th>Neighbourhood</th>
+                                    <th>Borough</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th>1°</th>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <th>2°</th>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <th>3°</th>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="tab-pane fade active in" id="Recommended">
+                    	<p><b> We found some recommended places near to NYU for you!</b></p>
+                    	<hr>
+                    	<button id="btn">Restaurants</button>
+                    	<p>If you are searching for a good place to have a great meal here we leave you a list with 19 popular and different places to have the best meal in your break time:</p>
+                    	<li> <a href="https://www.theinfatuation.com/new-york/guides/restaurants-near-nyu"> 19 Places for a casual meal near to NYU</a></li>
+                    	<hr>
+                    	<button id="btn">Galleries</button>
+                    	<p>For those moment when you want a little scape to art, to enjoy the best master pieces without going far away of NYU we bring to you a top 10 of galleries near to you:</p> 
+                    	<li><a href="https://www.yelp.com/search?cflt=galleries&find_loc=Greenwich+Village%2C+Manhattan%2C+NY"> Top 10 Art Galleries</a></li>
+                    	<hr>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-7">
+                <div id="googleMapContainer"></div>
+            </div>
+        </div>
+
+    </div>
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous">
+    </script>
+    <!-- js -->
+    <script src="js/main.js">
+    </script>
+    
+    <script src="js/distanciaMinima.js">
+    </script>
+    <!-- google map -->
+    <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCDCtCnIGSOYQlnzTKMCvbNtp2PODG4BLI&callback=onGoogleMapResponse">
+    </script>
+</body>
+</html>
